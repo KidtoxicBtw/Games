@@ -6,3 +6,5 @@ As said not recommended to cheat on roblox as synapse is working with them and i
 ## Loading The Script
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/KidtoxicBtw/Games/main/Script"))()
 ```
+
+
