@@ -18,7 +18,7 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 ```
 This speed script has gui.
 ```
-loadstring(game:HttpGet('https://pastebin.com/raw/6Y1K4KiX', true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/NjtRBZXf', true))()
 ```
 ## Loading the troll gui (fling not made by me)
 ```
