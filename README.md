@@ -24,6 +24,6 @@ loadstring(game:HttpGet('https://pastebin.com/raw/NjtRBZXf', true))()
 ```
 --fling gui
 local troll = loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
---remove if needed
+--remove the print thing if needed
 print(loaded!)
 ```
