@@ -2,6 +2,8 @@
 My Scripts For Games on Roblox
 
 As said not recommended to cheat on roblox as synapse is working with them and its against the tos
+
+Welcome to the worst scripts
  
 # Roblox Terms Of Service
 [Roblox Tos](https://en.help.roblox.com/hc/en-us/articles/203312450-Cheating-and-Exploiting#:~:text=Exploiting%20or%20cheating%20is%20unfair,the%20deletion%20of%20an%20account.)
