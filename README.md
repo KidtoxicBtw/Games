@@ -28,9 +28,5 @@ This speed script has gui.
 loadstring(game:HttpGet('https://pastebin.com/raw/NjtRBZXf', true))()
 ```
 # Loading The Fling Gui (not made by me)
-```
---fling gui
-local troll = loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
---remove the print thing if needed
-print(loaded!)
+``` loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 ```
