@@ -1,27 +1,28 @@
 getgenv().autotap = true
 getgenv().autorebirth = true
-getgenv().autobuy = true
+getgenv().autohatch = true
 
-spawn(function()
-  while autotap == true do
+local replicatedStorageService = game:GetService("ReplicatedStorage")
+
+task.spawn(function()
+  repeat
+      task.wait()
       local args = {[1] = "Main"}
-      game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Tap"):FireServer(unpack(args))
-      wait()
-  end
+      replicatedStorageService:WaitForChild("Events"):WaitForChild("Tap"):FireServer(unpack(args))
+  until not getgenv().autotap
 end)
 
-spawn(function()
-  while autorebirth == true do
+task.spawn(function()
+  repeat
+      task.wait()
       local args = {[1] = 1}
-      game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Rebirth"):FireServer(unpack(args))
-      wait()
-  end
+      replicatedStorageService:WaitForChild("Events"):WaitForChild("Rebirth"):FireServer(unpack(args))
+  until not getgenv().autorebirth
 end)
 
-spawn(function()
-  while autobuy == true do
+task.spawn(function()
+  repeat
       local args = {[1] = {},[2] = "Starter",[3] = 1}
-      game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("HatchEgg"):InvokeServer(unpack(args))
-      wait()
-  end
+      replicatedStorageService:WaitForChild("Events"):WaitForChild("HatchEgg"):InvokeServer(unpack(args))
+  until not getgenv().autohatch
 end)
