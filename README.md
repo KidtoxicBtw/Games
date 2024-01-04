@@ -28,3 +28,5 @@ This speed script has gui.
 ```
 loadstring(game:HttpGet('https://pastebin.com/raw/NjtRBZXf', true))()
 ```
+
+thats it for now, im gonna make a website for this soon.
