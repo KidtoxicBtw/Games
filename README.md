@@ -1,10 +1,11 @@
 # Games
 My Scripts For Games on Roblox
 
-As said not recommended to cheat on roblox as synapse is working with them and its against the tos
+Welcome skids all of the scripts are made by me
 
-Welcome to the worst scripts
- 
+# Contact Info
+**discord** kidtoxicyt
+
 # Roblox Terms Of Service
 [Roblox Tos](https://en.help.roblox.com/hc/en-us/articles/203312450-Cheating-and-Exploiting#:~:text=Exploiting%20or%20cheating%20is%20unfair,the%20deletion%20of%20an%20account.)
  
@@ -26,7 +27,4 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
 This speed script has gui.
 ```
 loadstring(game:HttpGet('https://pastebin.com/raw/NjtRBZXf', true))()
-```
-# Loading The Fling Gui (not made by me)
-``` loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 ```
