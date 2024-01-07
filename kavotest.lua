@@ -148,3 +148,7 @@ end)
 Section:NewButton("Raven B4", "ButtonInfo", function()
     game.Players.LocalPlayer:Kick("You really thought ima add skidb4?")
 end)
+
+Section:NewButton("Vape", "vape", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
