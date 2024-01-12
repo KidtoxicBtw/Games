@@ -1,4 +1,4 @@
--- if your reading this your smart but please dont skid and dont use "raven b4" it will kick you and its just a skidded and bad script overall.
+--please dont skid and dont use "raven b4" it will kick you and its just a skidded and bad script overall.
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "BedrockWare | Public Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
