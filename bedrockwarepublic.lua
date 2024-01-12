@@ -2,7 +2,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "BedrockWare | Public Script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
-	Name = "Main",
+	Name = "ScriptHub",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
