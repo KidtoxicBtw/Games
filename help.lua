@@ -39,7 +39,7 @@ local pylr2 = game.Players.LocalPlayer
 local infjmp = true
 local id = game.PlaceId
 
-if id == hold then
+if id == 6872274481 then
     Tab:AddButton({
     	Name = "AlSploit",
     	Callback = function()
@@ -63,7 +63,7 @@ if id == hold then
 
     Tab5:AddSlider({
     	Name = "Speed",
-	    Min = 0,
+	Min = 0,
     	Max = 100,
     	Default = 5,
     	Color = Color3.fromRGB(255,255,255),
@@ -84,7 +84,7 @@ if id == hold then
     })
 
     OrionLib:Init()
-elseif id == hold then
+elseif 6872265039 ==  then
     plyr2:Kick("Spawn Is Not Supported Right Now!")
 else
     plyr2:Kick("This Game Is Not Supported!")
