@@ -62,7 +62,7 @@ if id == 6872274481 then
     })
 
     Tab5:AddSlider({
-    	Name = "Speed",
+    	Name = "Speed (dont use)",
 	Min = 0,
     	Max = 100,
     	Default = 5,
