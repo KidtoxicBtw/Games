@@ -84,7 +84,7 @@ if id == 6872274481 then
     })
 
     OrionLib:Init()
-elseif 6872265039 ==  then
+elseif id 6872265039 ==  then
     plyr2:Kick("Spawn Is Not Supported Right Now!")
 else
     plyr2:Kick("This Game Is Not Supported!")
