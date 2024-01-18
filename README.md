@@ -24,7 +24,7 @@ Execute this one and change as you like, you can also put it in your script.
 ```lua
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50 --you can change the number
 ```
-## With GUI
+### With GUI
 ```lua
 loadstring(game:HttpGet('https://pastebin.com/raw/NjtRBZXf', true))()
 ```
