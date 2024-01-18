@@ -22,9 +22,9 @@ loadstring("\112\114\105\110\116\40\34\32\89\79\85\82\32\83\67\82\73\80\84\32\72
 # Loading The Speed Script
 Execute this one and change as you like, you can also put it in your script.
 ```
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50 --you can change the number
 ```
-This speed script has gui.
+## With GUI
 ```
 loadstring(game:HttpGet('https://pastebin.com/raw/NjtRBZXf', true))()
 ```
